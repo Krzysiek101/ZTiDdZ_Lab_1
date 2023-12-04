@@ -11,15 +11,15 @@
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
 
-    <form id="login-form">
+    <form id="login-form" onsubmit="dataValidation()">
       <!-- pole do wpisywania nazwy użytkownika -->
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <!-- pole do wpisywania hasła -->
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
       <!-- przyciskt do zatwierdzenia wpisanych danych i przejścia do logwania -->
-      <input type="submit" value="Login" id="login-form-submit">
+      <input type="submit" value="Login" id="login-form-submit" >
     </form>
-    <script src="login.js"></script>
+    <script src="./login.js"></script>
 
   </main>
 </body>
